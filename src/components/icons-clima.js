@@ -19,7 +19,7 @@ class IconsClimax extends Component{
         return(
             <>
             {
-                this.props.stade == "drizzle" ? <img className="iconclim" src={lluvia} /> :
+                this.props.stade == "drizzle" || this.props.stade == "light rain" || this.props.stade == "moderate rain" ? <img className="iconclim" src={lluvia} /> :
                  this.props.stade == "clear sky" || this.props.stade == "few clouds" ? <img className="iconclim" src={nubes} />: 
                  this.props.stade == "scattered clouds" ? <img className="iconclim" src={nubes} />: 
                  this.props.stade == "overcast clouds" ? <img className="iconclim" src={nubesn} />: 
