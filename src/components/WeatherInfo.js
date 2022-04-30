@@ -16,7 +16,9 @@ const WeatherInfo = (props) =>{
                 </>
                 : <h2 style={{textAlign: "center"}}>NULL DATA</h2>
             }
-            <IconsClimax stade={props.state.description} />
+            <div className="d-flex">
+                <IconsClimax stade={props.state.description} />
+            </div>      
         </div>
     )
 }
