@@ -1,3 +1,3 @@
 module.exports = {
-    WEATHER_KEY: '34e955e7dbd915e9fdc8441714b7fc1c'
+    WEATHER_KEY: 'a8d56ad88b9efcd3f6da2a86517746ed'
 };
