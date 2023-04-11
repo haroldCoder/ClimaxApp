@@ -2,7 +2,7 @@ import React from 'react';
 
 const WeatherForm = props => (
     <div className="card card-body" style={{background: "#00000010"}}>
-        <form className='d-flex' style={{flexFlow: "column", justifyContent: "evenly"}} onSubmit={props.getWeather}>
+        <form className='d-flex' style={{flexFlow: "column", justifyContent: "evenly", width: "100%"}} onSubmit={props.getWeather}>
             <div className="form-group mt-1">
                 <input type="text" name="city" placeholder="Your City Name" className="form-control" autoFocus/>
             </div>
